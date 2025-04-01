@@ -1,0 +1,112 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Onglets -->
+    <div class="tabs">
+        <button class="tablinks" onclick="openTab(event, 'accueil')">Accueil</button>
+        <button class="tablinks" onclick="openTab(event, 'portfolio')">Portfolio</button>
+        <button class="tablinks" onclick="openTab(event, 'articles')">Articles</button>
+        <button class="tablinks" onclick="openTab(event, 'galerie')">Galerie</button>
+    </div>
+
+    <!-- Contenu des onglets -->
+    <div id="accueil" class="tabcontent">
+        <div class="rectangle">
+            <img src="images/photo.png" alt="Photo" title="Photo" id="imageProfile"/>
+            <h1>El Arja Omar</h1>
+            <p style="padding-left: 20px; padding-right: 20px;">
+                À l'été 2018, j'ai eu l'opportunité de participer à un stage d'intégration à la programmation à l'Université Al Akhawayne à Ifrane. Ce stage m'a permis de plonger dans le monde de la programmation et de renforcer mes compétences techniques. J'y ai appris les bases de plusieurs langages de programmation et découvert des outils utiles dans le développement logiciel. Ce fut une expérience précieuse qui m'a permis d'élargir mes connaissances et de mieux comprendre les exigences du domaine, tout en affinant ma capacité à résoudre des problèmes complexes de manière créative.
+            </p>
+            <p><img src="images/map_pin.png" alt="Map Pin" title="Map Pin" class="icon" /> Maroc, Université Al Akhawayne <img src="images/linkedin.png" alt="LinkedIn" title="LinkedIn" class="icon" href=""/> <a href="https://github.com/aceisk"><img src="images/github.png" alt="Github" title="Github" class="icon"/></a> <a href="https://www.facebook.com/share/12AK3UtTP5x/"><img src="images/fb.png" alt="FaceBook" title="FaceBook" class="icon" /></a> </p>
+        </div>
+
+        <div class="rectangle">
+            <h2>Compétences</h2>
+            <div class="twoColumns">
+                <span class="outil"> <a href="comp/competenceh.html"><img src="images/html5.png" alt="HTML" title="HTML" class="icon"/></a> HTML</span>
+                <span class="outil"> <a href="comp/compcss.html"><img src="images/css.png" alt="CSS" title="CSS" class="icon" /></a> CSS</span>
+                <span class="outil"> <a href="comp/compjs.html"><img src="images/javascript.png" alt="JavaScript" title="JavaScript" class="icon" /></a> JavaScript </span>
+                <span class="outil"> <a href="comp/compillu.html"><img src="images/illustrator.png" alt="Illustrator" title="Illustrator" class="icon" /></a> Illustrator </span>
+                <span class="outil"> <a href="comp/compphoto.html"><img src="images/photoshop.png" alt="Photoshop" title="Photoshop" class="icon" /></a> Photoshop </span>
+                <span class="outil"> <a href="comp/compfigma.html"><img src="images/figma.png" alt="Figma" title="Figma" class="icon" /></a> Figma </span>
+            </div>
+        </div>
+
+        <div class="rectangle">
+            <h2>Expériences Professionnelles</h2>
+            <table style="font-family: 'Neiko';">
+                <tr>
+                    <td><img src="images/paint.png" alt="Design" title="Design" class="logo" /></td>
+                    <td style="width: 200px; height: auto;"> <br>
+                        <span class="date">J'essaie d'apprendre le code et la programmation depuis 2018</span>
+                    </td>
+                    <td>
+                        Passionné par l'informatique et le développement, je m'efforce d'améliorer continuellement mes compétences en NSI (Numérique et Sciences Informatiques). J'explore divers langages de programmation, approfondis mes connaissances en algorithmes et structures de données, et m'entraîne à résoudre des problèmes complexes. Mon objectif est de renforcer ma maîtrise du développement web et logiciel tout en adoptant de bonnes pratiques en ingénierie informatique.
+                    </td>
+                </tr>
+            </table>
+
+            <br>
+
+            <table style="padding-bottom: 20px; font-family: 'Neiko';">
+                <tr>
+                    <td><img src="images/Shcool.jpeg" alt="School" title="Web Design" class="logo" /></td>
+                    <td style="width: 200px; height: auto;">Classe de NSI Mme ED Bali<br>
+                        <span class="date">PROMO 2024-2025</span>
+                    </td>
+                    <td>
+                        En parallèle de mes études au lycée, j'essaie de m'améliorer un maximum pour pouvoir profiter de mes compétences en programmation et en faire mes futures études, voire mon futur métier. Ce projet a renforcé mes compétences en développement web et web design.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+    <div id="portfolio" class="tabcontent">
+        <!-- Contenu du portfolio ici -->
+        <div>
+            <img src="images/khaleej.PNG" alt="Photo" title="Photo" id="imageProfile"/>
+
+            <h1>Les pays du khaleej </h1>
+            <p>J'ai eu l'opportunité de de voyagé dans des pays du khaleej comme : les emirats arabe unis ou l'arabie saoudites ce qui ma permis d'exploré un peu plus le monde et de decouvrire de nouvels horizons </p>
+        </div>
+        <div>
+            <img src="images/europe.webp" alt="Photo" title="Photo" id="imageProfile"/>
+
+            <h1>l'europe </h1>
+            <p>j'ai aussi pu voyager en europe (france , belgique , espagne ) un continent qui ma fait decouvrir de nombreuse chose comme un style de vie tres different de celui du maroc , et je me suis rendu compte que l'europe est un continent riche</p>
+    </div>
+</div>
+    <div id="articles" class="tabcontent">
+        <!-- Contenu des articles ici -->
+        <h2>Articles</h2>
+        <p>Depuis le début de mon parcours scolaire, je me suis orienté vers l’informatique et la programmation, cherchant à approfondir mes connaissances en développement web, en algorithmique et en conception logicielle. Passionné par le domaine du numérique, j’ai toujours cherché à améliorer mes compétences en travaillant sur des projets personnels et en participant à diverses expériences d’apprentissage.
+
+            En parallèle de mes études, mes voyages m’ont permis de découvrir de nouvelles cultures et d’enrichir ma vision du monde. Chaque destination a été une occasion d’apprendre et de m’adapter à des environnements variés. Ces expériences m’ont apporté une plus grande ouverture d’esprit, ainsi qu’une capacité à analyser et à comprendre des perspectives différentes, des qualités essentielles dans un domaine en constante évolution comme l’informatique.</p>
+    </div>
+
+    <div id="galerie" class="tabcontent">
+        <!-- Contenu de la galerie ici -->
+        <h2>Galerie Photos</h2>
+        <td><img src="images/makkah1.jpg" alt="Design" title="makkah" class="photo" /></td>
+        <td><img src="images/makkah2.jpg" alt="Design" title="makkah" class="photo" /></td>
+        <td><img src="images/makkah3.jpg" alt="Design" title="makkah" class="photo" /></td>
+        <td><img src="images/madrid1.jpg" alt="Design" title="madrid" class="photo" /></td>
+        <td><img src="images/madrid2.jpg" alt="Design" title="madrid" class="photo" /></td>
+        <td><img src="images/MAROC.jpg" alt="Design" title="maroc" class="photo" /></td>
+        <td><img src="images/grenoble1.jpg" alt="Design" title="grenoble1" class="photo" /></td>
+        <!-- Affichage des miniatures et photo principale -->
+
+    </div>
+
+</body>
+</html>
